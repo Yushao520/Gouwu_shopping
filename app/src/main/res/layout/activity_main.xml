@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bewai.Gouwu_shopping.MainActivity">
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:id="@+id/img_01"
+       />
+   <android.support.v4.widget.SwipeRefreshLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:id="@+id/sw_layout"
+       >
+
+      <android.support.v7.widget.RecyclerView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/recycler_01"
+          ></android.support.v7.widget.RecyclerView>
+
+
+   </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>
